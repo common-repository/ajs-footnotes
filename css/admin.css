@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+.padding-details, .corner-details {display:none;}
+.padding-details td, .padding-details th, .corner-details td,  .corner-details th {padding-left:25px;}
+.notePos li, .notePos .ddTitleText{
+	background-image:url(../images/positioning.png);
+	background-repeat:no-repeat;
+	padding:0 0 0 90px !important;
+	height:55px;
+	margin:0 0 0 3px;
+}
+
+.notePos .topLeft { background-position:0 0;}
+.notePos .topCenter {background-position:0 -55px;}
+.notePos .topRight {background-position:0 -110px;}
+.notePos .right {background-position:0 -165px;}
+.notePos .left {background-position:0 -220px;}
+.notePos .bottomLeft {background-position:0 -275px;}
+.notePos .bottomCenter {background-position:0 -330px;}
+.notePos .bottomRight {background-position:0 -385px;}
